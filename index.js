@@ -77,7 +77,8 @@ controller.hears('.*', ['direct_message', 'direct_mention'], function (bot, mess
 controller.on('direct_message,mention,direct_mention', function (bot, message) {
    bot.api.reactions.add({
        timestamp: message.ts,
-       channel: message.channel
+       channel: message.channel,
+       color: '#7CD197'
    }, function (err) {
        if (err) {
            console.log(err)
