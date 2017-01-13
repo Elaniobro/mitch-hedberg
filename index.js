@@ -71,7 +71,7 @@ controller.hears('.*', ['mention'], function (bot, message) {
 // })
 
 controller.hears('.*', ['direct_message', 'direct_mention'], function (bot, message) {
-  bot.reply(message, 'Sorry <@' + message.user + '>, I don\'t understand. \n')
+  bot.reply(message, 'Sorry <@' + message.user + '>, you\'re not that funny.  \n')
 })
 
 controller.on('direct_message,mention,direct_mention', function (bot, message) {
