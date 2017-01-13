@@ -1,6 +1,6 @@
-name: nodebot
-description: A simple node.js starter bot for Beep Boop
-avatar: resources/avatar.png
+name: mitch-hedberg
+description: A bunch of jokes by Mitch Hedberg.
+avatar: resources/mitch.png
 #background: resources/background.png
 #config:
 #  - name: OPTION
