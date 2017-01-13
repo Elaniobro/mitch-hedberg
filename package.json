@@ -1,7 +1,7 @@
 {
-  "name": "node-slack-bot",
+  "name": "mitch-hedberg",
   "version": "1.0.0",
-  "description": "A sample Beep Boop Node.js Slackbot",
+  "description": "Collection of Mitch Hedberg Quotes.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -13,9 +13,11 @@
   "keywords": [
     "slackbot",
     "bot",
-    "slack"
+    "slack",
+    "mitch",
+    "hedberg"
   ],
-  "author": "",
+  "author": "Elan Trybuch",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/beepboophq/node-slack-bot/issues"
